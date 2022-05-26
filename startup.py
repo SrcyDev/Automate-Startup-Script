@@ -28,6 +28,7 @@ import os
 import time
 import sys
 
+cmd = ["","",""]
 
 ## This runs one time only. In order to use it again the next function is defined.
 ## I was not able to loop it. I will gladly accept any help about this.
@@ -55,7 +56,7 @@ def loading_text():
 
 
 def cmd():
-	command = os.system("") # Enter your command(s) here
+	command = os.system(cmd) # Enter your command(s) here
 
 ## Input
 ## This checks for any possible input to prevent errors. 
