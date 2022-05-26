@@ -28,7 +28,11 @@ import os
 import time
 import sys
 
+## Enter the name of the program in the list and
+## make sure it is present in /use/bin.
 cmd = ["","",""]
+
+#####Don't edit this unless you know what are you doing.####
 
 ## This runs one time only. In order to use it again the next function is defined.
 ## I was not able to loop it. I will gladly accept any help about this.
@@ -56,7 +60,7 @@ def loading_text():
 
 
 def cmd():
-	command = os.system(cmd) # Enter your command(s) here
+	command = os.system(cmd) 
 
 ## Input
 ## This checks for any possible input to prevent errors. 
