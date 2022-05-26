@@ -1,6 +1,6 @@
 ######################################## WELCOME TO AUTOMATION SCRIPT############################################################
 ## This is a template for your automating script. You can use this to execute things automatically by launching it in startup. ##
-## This is made and tested for Linux. This may work but I can not gurrantee it.                                                ##
+## This is made and tested for Linux. This may work on other Operating System but I can not gurrantee it.                      ##
 ## I will appreciate any help. I hope you will enjoy it.                                                                       ##
 ################################################################################################################################# 
 
