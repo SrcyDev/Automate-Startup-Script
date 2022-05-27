@@ -4,10 +4,12 @@
 ## I will appreciate any help. I hope you will enjoy it.                                                                       ##
 ################################################################################################################################# 
 
-## Enter your commands here like command = os.system(<program name>)
+## Enter your commands here like command = os.system("<program name>")
 ## Copy and paste this if you want to use multiple programs.
 ## Make sure they are present in /usr/bin or are added to path.
 ## Else it would not work.
+## Dont forget to put double quotes ("")
+## The default is "bash" for testing purposes
 
 def cmd():
 	command = os.system()
