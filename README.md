@@ -12,8 +12,9 @@ Automate Scripts in Python.
    If it does not do it, then check if it is present in /usr/bin.
 
 ## For Automatic Startup at System boot.
-1. For automatic launch at System Start, Open terminal.
-2. Do `crontab -e` and choose option `1`.
-3. Now navigate to the bottom line and write `@reboot <file location>`. For me its `/mnt/sda2`.
+1. Copy the script to `/usr/bin` or execute `sudo cp -i <script location> /bin`.
+2. Open terminal.
+. Do `crontab -e` and choose option `1`.
+3. Now navigate to the bottom line and write `@reboot python /bin/<script name.>`.
 4. Press `Ctrl + O` in your keyboard and press `Enter`. Now press `Ctrl + X`.
 5. Reboot the system to see the result.   
