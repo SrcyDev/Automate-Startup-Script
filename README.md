@@ -15,6 +15,6 @@ Automate Scripts in Python.
 1. Copy the script to `/usr/bin` or execute `sudo cp -i <script location> /bin`.
 2. Open terminal.
 . Do `crontab -e` and choose option `1`.
-3. Now navigate to the bottom line and write `@reboot python /bin/<script-name.py>`.
+3. Now navigate to the bottom line and write `@reboot python /bin/<script-name.py> &`.
 4. Press `Ctrl + O` in your keyboard and press `Enter`. Now press `Ctrl + X`.
 5. Reboot the system to see the result.   
