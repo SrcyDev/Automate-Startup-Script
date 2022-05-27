@@ -10,6 +10,7 @@
 ## Else it would not work.
 ## Dont forget to put double quotes ("")
 ## The default is "bash" for testing purposes
+
 def cmd():
 	command = os.system("bash")
 
